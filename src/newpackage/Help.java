@@ -240,7 +240,7 @@ public class Help {
 
 	public static WebElement WaiteR(By locator) {
 
-		Wait<WebDriver> wait = new WebDriverWait(driver, 15).ignoring(org.openqa.selenium.NoSuchElementException.class,
+		Wait<WebDriver> wait = new WebDriverWait(driver, 35).ignoring(org.openqa.selenium.NoSuchElementException.class,
 				org.openqa.selenium.ElementNotVisibleException.class);
 
 		WebElement foo = wait.until(new Function<WebDriver, WebElement>() {
