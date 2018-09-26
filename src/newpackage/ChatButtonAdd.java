@@ -138,7 +138,7 @@ public class ChatButtonAdd extends Help {
 		Help.JavaExecInit(driver, "arguments[0].click();", ff);
 
 		// need pause
-		setPause(700);
+		setPause(800);
 
 		// paste code
 		ff.sendKeys(Keys.CONTROL + "v");

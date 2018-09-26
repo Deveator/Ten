@@ -10,7 +10,12 @@ public class JUnitTestList {
 	public void deforeEveryTest() {
 		System.out.println("");
 	}
-
+	
+	@Test
+	public void loginLogoutTest() {
+		LoginLogoutLA.mLoginLogoutLA();
+	}
+/*
 	@Test
 	public void dialOutPrefixColumnTest() {
 		DialOutPrefixColumn.mDialOutPrefixColumn();
@@ -21,10 +26,7 @@ public class JUnitTestList {
 		NumberOfDays.mNumberOfDays();
 	}
 
-	@Test
-	public void loginLogoutTest() {
-		LoginLogoutLA.mLoginLogoutLA();
-	}
+	
 
 	// Gmail account mail must be empty
 	@Test
@@ -55,7 +57,7 @@ public class JUnitTestList {
 		public void SendToMainCCBCCRecipientTest() {
 			SendToMainCCBCCRecipient.mSendToMainCCBCCRecipient();
 		}
-
+*/
 	@After
 	public void afterEveryTest() {
 		System.out.println("");

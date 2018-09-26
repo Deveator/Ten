@@ -79,7 +79,7 @@ public class Help {
 		if (s.equals("true")) {
 			remChkbx.click();
 		}
-/*
+
 		// find/initiate lang string
 		WebElement langStr = WaiteR(By.cssSelector(LoginLAPage.getLangStringAttr("css")));
 
@@ -89,12 +89,12 @@ public class Help {
 		for (int i = 0; i < 50; i++) {
 			langStr.sendKeys(Keys.ARROW_UP);
 		}
-		for (int i = 0; i < 7; i++) {
+		for (int i = 0; i < 5; i++) {
 			langStr.sendKeys(Keys.ARROW_DOWN);
 		}
 		langStr.sendKeys(Keys.ENTER);
 		// end set "English" language
-*/
+
 		// click on LOGIN
 		logBut.click();
 	}

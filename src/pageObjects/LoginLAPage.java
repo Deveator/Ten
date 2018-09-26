@@ -107,10 +107,10 @@ public class LoginLAPage {
 		String val = null;
 		switch (s) {
 		case "xpath":
-			val = null;
+			val = "//div[@class='g-ListBox']//input[@type='text']";
 			break;
 		case "css":
-			val = "body.Lang-en-US:nth-child(2) div.LoginMain:nth-child(2) div.LoginBox div.LoginForm div.LoginFormContent div.Body div.GCI24E0P4.MainLoginPanel div.FormPanel.DecoratedContentWidget div.g-FormField2:nth-child(4) div.g-FormField2-InputContainer div.g-FormField2-InputPanel:nth-child(1) div.g-ListBox > input.g-ListBoxInput";
+			val = "body.Lang-en-US:nth-child(2) div.LoginMain:nth-child(2) div.LoginBox div.LoginForm div.LoginFormContent div.Body div.GCI24E0P4.MainLoginPanel div.FormPanel.DecoratedContentWidget div.g-FormField2:nth-child(5) div.g-FormField2-InputContainer div.g-FormField2-InputPanel:nth-child(1) div.g-ListBox > input.g-ListBoxInput";
 			break;
 		case "id":
 			val = null;
