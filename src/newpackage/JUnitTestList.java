@@ -8,7 +8,7 @@ public class JUnitTestList {
 
 	@Before
 	public void deforeEveryTest() {
-		System.out.println("");
+		System.out.println("beforeTest");
 	}
 	
 	@Test
@@ -60,7 +60,7 @@ public class JUnitTestList {
 */
 	@After
 	public void afterEveryTest() {
-		System.out.println("");
+		System.out.println("afterTest");
 	}
 
 }
